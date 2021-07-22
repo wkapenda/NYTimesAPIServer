@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "API server application for the NYTimes most popular web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Willem Kapenda",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^3.0.2",
+    "apollo-server": "^3.0.2",
+    "graphql": "^15.5.1",
+    "nodemon": "^2.0.12"
+  }
+}
