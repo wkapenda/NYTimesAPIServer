@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# Getting Started with NY Times Most Popular Articles Server
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [ApolloGraphql](https://www.apollographql.com/).
 
-## Available Scripts
+# Follow these steps
+1. Download file
+2. Unzip folder
+3. Open you terminal
+4. cd to directory/folder
+
+# Command line prompts:
 
 In the project directory, you can run:
+
+### `npm install`
+
+This command will download all the npm packages dependencies and save them in you node_modules folder.\
 
 ### `nodemon`
 
