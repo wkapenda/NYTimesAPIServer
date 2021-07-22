@@ -29,3 +29,6 @@ yarn-1.18.0.js
 
 # Local Netlify folder
 .netlify
+
+# dotenv environment variable files
+.env*

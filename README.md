@@ -14,7 +14,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-This command will download all the npm packages dependencies and save them in you node_modules folder.\
+This command will download all the npm packages dependencies and save them in you node_modules folder.
 
 ### `nodemon`
 
