@@ -14,15 +14,16 @@ class NYTimesAPI extends RESTDataSource {
   }
 
   async getArticles() {
+    console.log(process.env.API_KEY)
+    const data = await this.get(`/7.json?api-key=${process.env.API_KEY}`);
     // const data = await this.get(`/7.json?api-key=${process.env.API_KEY}`);
-    const data = await this.get("/7.json?api-key=casFtPVjJwRwKcdt7qVOqefVQIqv7VjY");
     const articles = data.results;
 
     return articles;
   }
 
   async getArticle(id) {
-    const data = await this.get("/7.json?api-key=casFtPVjJwRwKcdt7qVOqefVQIqv7VjY");
+    const data = await this.get(`/7.json?api-key=${process.env.API_KEY}`);
     const articles = data.results
       return articles.find(article => article.id == id)
     }
